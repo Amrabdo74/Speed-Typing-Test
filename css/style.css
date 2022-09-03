@@ -1,0 +1,180 @@
+:root {
+  --padding: 15px;
+  --website-color: #00bcd4;
+  --second-color: #009688;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header h1 {
+  text-align: center;
+  padding: var(--padding) 0;
+}
+
+.header {
+  margin: 10px 0;
+}
+
+.select {
+  text-align: center;
+  padding: var(--padding) 0;
+  margin-bottom: 50px;
+
+}
+
+.select select {
+  background-color: #ffff;
+  width: 20%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 20px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.content-line {
+  text-align: center;
+  font-size: 25px;
+
+}
+
+.start-btn,
+.stop {
+  text-align: center;
+  padding: var(--padding) 0;
+  margin: 30px 0;
+}
+
+.stop {
+  display: none;
+}
+
+.start-btn input,
+.stop-btn {
+  width: 20%;
+  background-color: #00bcd4;
+  padding: var(--padding);
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.arr-words {
+  text-align: center;
+  font-size: 25px;
+  user-select: none;
+}
+
+.remaining-seconds {
+  text-align: center;
+  padding: var(--padding);
+  font-size: 30px;
+}
+
+.write-text {
+  text-align: center;
+  padding: var(--padding) 0;
+
+}
+
+.write-text input::placeholder {
+  color: #000;
+
+}
+
+.write-text input {
+  width: 60%;
+  padding: var(--padding);
+  outline: none;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  caret-color: var(--main-color);
+  color: var(--main-color);
+  font-weight: bold;
+  margin: 20px 0;
+  font-size: 2rem;
+  color: #000;
+}
+
+.dark-shadow {
+  box-shadow: 2px 3px 10px 7px #1f1f39;
+}
+
+.light-shadow {
+  box-shadow: 2px 3px 10px 7px rgb(201 201 201);
+}
+
+.score {
+  font-size: 25px;
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+ul li img {
+  height: 50px;
+  filter: invert(5%) sepia(32%) saturate(4905%) hue-rotate(232deg) brightness(94%) contrast(93%);
+
+}
+
+.thenightbuton {
+  filter: invert(79%) sepia(37%) saturate(7127%) hue-rotate(181deg) brightness(103%) contrast(101%);
+}
+
+.dark {
+  background-color: #161633;
+  color: white;
+  transition: all .75s;
+}
+
+.light {
+  background-color: white;
+  color: black;
+  transition: all .75s;
+}
+@media (max-width:800px) {
+  .select select {
+    width: 30%;
+  }
+  .start-btn input, .stop-btn {
+    width: 40%;
+  }
+  .content-line {
+    padding: 0 15px;
+  }
+  .write-text input {
+    width: 85%;
+    font-size: 20px;
+  }
+}
+@media (max-width:500px) {
+  .select select {
+    width: 60%;
+  }
+  .start-btn input, .stop-btn {
+    width: 60%;
+    padding: 10px;
+  }
+}
+@media (max-width:281px) {
+  .header h1 {
+    margin-top: 45px;
+  }
+}

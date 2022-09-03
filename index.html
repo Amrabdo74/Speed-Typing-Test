@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon.ico" type="image/png"> 
+   <title>Speed Typing</title>
+</head>
+
+<body>
+  <div class="main-content">
+    <div class="header">
+      <h1>Speed Typing</h1>
+    </div>
+    <!-- selects -->
+    <div class="select">
+      <select class="select-level" name="levels">
+
+        <option class="first" value="Select-level" >Select-level</option>
+        <option class="easy" value="easy" >Easy</option>
+        <option class="normal" value="normal">Normal</option>
+        <option class="hard" value="hard">Hard</option>
+      </select>
+    </div>
+    <!-- value of seconds and level  -->
+    <div class="content-line">
+      Your level [<span class="level-name">Select-level</span>] , and you have
+
+      [<span class="socend"></span>] seconds to write the word.
+
+    </div>
+    <div class="start-btn">
+      <input class="btn-Start" type="button" value="Start">
+    </div>      
+    <!-- words [arr] -->
+    <div class="arr-words">
+    </div>
+    <!-- remaining-seconds -->
+    <div class="remaining-seconds">
+    </div>
+
+    <div class="write-text">
+      <input class="btn-text" type="text" placeholder="Wirte word">
+    </div>
+    <div class="score">
+      <span class="score-span">0</span>
+      Youe Score
+    </div>
+    <div class="stop">
+      <input class="stop-btn" dete_color="red" type="button" value="Stop game">
+    </div>
+
+    <ul class="color_switch" >
+      <li class="first " dete_color="dark"><img src="images/moon.png" alt=""></li>
+      <li class="Scond " dete_color="light"><img class="" src="images/sunny.png" alt=""></li>
+
+  </ul>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
