@@ -2,7 +2,7 @@
 <h3 align="center">A passionate frontend developer from Egypt</h3>
 
 - 🌱 link for this webssite :- https://amrabdo74.github.io/Speed-Typing-Test/
-- 
+
 - 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/amr-abdo74//](https://www.linkedin.com/in/amr-abdo74/)
 
 - 📫 How to reach me **yamrabdo0102@gmail.com**
