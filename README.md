@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Amr mohmed </h1>
+<h1 align="center">Hi 👋, I'm Amr mohamed </h1>
 <h3 align="center">A passionate frontend developer from Egypt</h3>
 - link for this webssite :- https://amrabdo74.github.io/Speed-Typing-Test/
 
